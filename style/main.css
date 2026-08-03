@@ -99,13 +99,13 @@ body {
   position: relative;
   top: 10vh;
   z-index: 1;
+  display: inline-block;   /* Agar ukuran mengikuti foto */
 }
 
 .six img {
-  display: inline-block;
+  display: block;
   height: 350px;
   max-width: 100%;
-  /* height: auto; */
 }
 
 .six .hat {
