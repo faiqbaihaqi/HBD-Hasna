@@ -108,13 +108,19 @@ body {
   /* height: auto; */
 }
 
-.six .hat{
-    position:absolute;
-    width:90px;
-    left:50%;
-    top:-35px;
-    transform:translateX(-50%) rotate(0deg);
-    z-index:999;
+.six .hat {
+  position: absolute;
+
+  width: 80px;
+
+  /* Posisi tepat di tengah atas foto */
+  left: 50%;
+  top: -40px;
+
+  /* Geser agar benar-benar di tengah */
+  transform: translateX(-50%);
+
+  z-index: 10;
 }
 
 .baloons img {
