@@ -94,33 +94,26 @@ body {
   font-size: 15rem;
 }
 
-
-.six {
-  position: relative;
-  top: 10vh;
-  z-index: 1;
-  display: inline-block;   /* Agar ukuran mengikuti foto */
+.six{
+    position: relative;
+    display: inline-block;
 }
 
-.six img {
-  display: block;
-  height: 350px;
-  max-width: 100%;
+.six .profile-picture{
+    display:block;
+    margin:auto;
 }
 
-.six .hat {
-  position: absolute;
+.six .hat{
+    position:absolute;
 
-  width: 80px;
+    width:90px;
 
-  /* Posisi tepat di tengah atas foto */
-  left: 50%;
-  top: -40px;
+    left:50%;
+    top:-45px;
 
-  /* Geser agar benar-benar di tengah */
-  transform: translateX(-50%);
-
-  z-index: 10;
+    transform:translateX(-50%);
+    z-index:999;
 }
 
 .baloons img {
