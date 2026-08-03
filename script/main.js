@@ -199,11 +199,13 @@ const animationTimeline = () => {
         },
         "-=2"
     )
-    .from(".hat", 0.5, {
-        x: 0,
-        y: 0,
-        rotation: -180,
-        opacity: 0,
+    .from(".hat", 0.8, {
+    y: -80,          // topi turun dari atas
+    scale: 0,
+    rotation: -30,
+    opacity: 0,
+    ease: Bounce.easeOut
+})
     })
     .staggerFrom(
         ".wish-hbd span",
